@@ -1,0 +1,121 @@
+#links {
+    text-align: right;
+}
+
+hr {
+    border: 1px solid #eee;
+}
+
+body {
+    color: #202124;
+    font-family: Roboto, arial, sans-serif;
+    text-align: center;
+}
+
+#container {
+    overflow: hidden;
+}
+
+h1 {
+    text-align: left;
+    font-family: Roboto, arial, sans-serif;
+    color: #d93025;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+h2 {
+    text-align: left;
+    font-family: Roboto, arial, sans-serif;
+    color: #333;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 35px;
+}
+
+div {
+    margin: 15px;
+}
+
+.advancedLogo {
+    display: block;
+    margin: 15px;
+    text-align: left;
+    width: 8%;
+}
+#advancedHeader {
+    margin: 5px;
+}
+
+.advancedRow {
+    margin: 0px;
+    text-align: left
+}
+
+.advancedCol {
+    margin: 5px;
+    margin-left: 0px;
+    display: inline-block;
+    width: 162px;
+}
+
+#advancedForm {
+    width: 100%;
+    text-align: left;
+    float: left;
+    margin-left: 35px;
+}
+
+form {
+    display: inline-block;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+}
+
+.searchInput {
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    font-size: 16px;
+    width: 550px;
+    height: 44px;
+    display: flex;
+    flex: 100%;
+}
+
+.advancedSearchInput {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    width: 500px;
+}
+
+.searchSubmit {
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+}
+
+.advancedSearchSubmit {
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: none;
+    border: 1px solid #3079ed;
+    color: white;
+    background-color: #4d90fe;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+}
+
+.buttonHolder {
+    text-align: center;
+}

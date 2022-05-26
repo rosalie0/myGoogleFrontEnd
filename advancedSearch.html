@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="links">
+            <br>
+            <a href="index.html">Go Back</a>
+        </div>
+
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" class="advancedLogo">
+
+        <div id="advancedHeader">
+            <h1>Advanced Search</h1>
+        </div>
+
+        <hr>
+
+        <h2>Find pages with...</h2>
+        
+        <div id="advancedSearchTable"></div>
+            <form action="https://google.com/search" id="advancedForm">
+
+                <div class="advancedRow">
+                    <div class="advancedCol">all these words:</div>
+                    <div class="advancedCol">
+                        <input type="text" name="as_q" class="advancedSearchInput">
+                    </div>
+                </div>
+
+                <div class="advancedRow">
+                    <div class="advancedCol">this exact word or phrase:</div>
+                    <div class="advancedCol">
+                        <input type="text" name="as_epq" class="advancedSearchInput">
+                    </div>
+                </div>
+
+                <div class="advancedRow">
+                    <div class="advancedCol">any of these words:</div>
+                    <div class="advancedCol">
+                    <input type="text" name="as_oq" class="advancedSearchInput">
+                    </div>
+                </div>
+
+                <div class="advancedRow">
+                    <div class="advancedCol">none of these words:</div>
+                    <div class="advancedCol">
+                        <input type="text" name="as_eq" class="advancedSearchInput">
+                    </div>
+                </div>
+
+                <div class="buttonHolder">
+                    <input type="submit" value="Advanced Search" class="advancedSearchSubmit">
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
